@@ -7,7 +7,7 @@ var request = require('request');
 */
 
 var options = {
-	format: 'letter',
+	format: 'A3',
 	base: "http://exam.cusat.ac.in/erp5/cusat/Cusat-Hall-Ticket"
 };
 
