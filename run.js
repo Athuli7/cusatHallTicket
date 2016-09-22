@@ -1,3 +1,4 @@
+var system = require('system');
 console.log(system.args[0]);
 console.log(system.args[1]);
 console.log(system.args[2]);
