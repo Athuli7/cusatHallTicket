@@ -1,8 +1,14 @@
 var pdf = require('html-pdf');
 var request = require('request');
 
+/*
+*	fetchPhoto?regno1=12130024
+*	fetchSign?regno1=12130024
+*/
+
 var options = {
-	format: 'A4'
+	format: 'A4',
+	base: "http://exam.cusat.ac.in/erp5/cusat/Cusat-Hall-Ticket"
 };
 
 request({
