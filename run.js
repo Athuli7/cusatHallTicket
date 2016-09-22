@@ -6,7 +6,7 @@ var options = {
 };
 
 request({
-		url : 'http://google.com/',
+		url : 'http://exam.cusat.ac.in/erp5/cusat/Cusat-Hall-Ticket/form2',
 		method: 'POST',
 		form: {
 			regno1:12130024,
